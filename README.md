@@ -1,4 +1,22 @@
-# nuxt-beers
+# Nuxt Beers
+
+[**Deployed Site**](https://jpe-nuxt-beers.netlify.app/)
+
+## Description
+
+Nuxt Beers is a project we developed in the Nuxt Workshop at VueConf2022 in Fort Lauderdale with Debbie O'Brien.
+
+We learnt a lot about different features of NuxtJS. 
+
+NuxtJS is a metaframework that was developed on top of VueJS to provide features that Vue doesn't provide out of the box like SSR (Server Side Rendering), an abstracted router, and store. It also has a lot of useful modules such as the **content** module.
+
+This is simple site to showcase different beers and also some reviews for them.
+
+The reviews are written in markdown and are fetched by the site using the content module.
+
+There is also an [API]('https://api.nuxtjs.dev/beers') to fetch the beers data from the web.
+
+
 
 ## Build Setup
 
