@@ -6,9 +6,9 @@
         placeholder="Search">
       <input type="button" class="absolute right-0 h-full rounded-r-3xl px-4" value="Search">
     </form>
-    <ul>
+    <ul class="text-center">
       <li v-for="element in filteredList">
-        <nuxt-link :to="element.path">
+        <nuxt-link class="underline text-green-700" :to="element.path">
           {{ element.title }}
         </nuxt-link>
       </li>
